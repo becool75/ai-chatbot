@@ -74,9 +74,11 @@ export default function Home() {
             DEMO: Dies ist eine Beispiel-Website. Der AI-Chatbot unten rechts ist das Produkt.
           </p>
           <p className="mt-1 text-sm text-blue-600">
-            <a href="/admin" className="underline">Admin-Dashboard öffnen →</a>
+            <a href="/admin" className="underline">Admin-Dashboard →</a>
             {" | "}
-            <a href="/settings" className="underline">Bot-Einstellungen →</a>
+            <a href="/settings" className="underline">Einstellungen →</a>
+            {" | "}
+            <a href="/embed" className="underline">Embed-Code →</a>
           </p>
         </div>
       </main>
